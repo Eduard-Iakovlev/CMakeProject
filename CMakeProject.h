@@ -5,5 +5,10 @@
 
 #include <iostream>
 #include <string>
+#ifdef  _WIN32
+#include "Windows.h"
+#endif 
+
 
 // TODO: установите здесь ссылки на дополнительные заголовки, требующиеся для программы.
+ 
